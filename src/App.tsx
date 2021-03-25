@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { EuiButton } from '@elastic/eui';
+// import { EuiButton } from '@elastic/eui';
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,7 +17,7 @@ function App({}: AppProps) {
   return (
     <div className="App">
       <header className="App-header">
-        <EuiButton />
+        {/*<EuiButton />*/}
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
